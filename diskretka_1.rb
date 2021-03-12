@@ -12,6 +12,7 @@ end
 puts ("B: " + b*"," + "\n");
 #C
 c = a | b;
+c.sort!;
 puts ("C: " + c*"," + "\n");
 #D
 d = a & b;
